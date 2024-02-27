@@ -123,6 +123,38 @@
             max-width: 80%;
         }
     }
+    .sustainability-section {
+    height: 100vh; /* Make the section the full height of the viewport */
+    display: flex; /* Enable flexbox for this container */
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    background-image: url('assets/sustainability.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensure text color is white for contrast */
+}
+
+.sustainability-section .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#contact {
+    height: 100vh; /* Make the section the full height of the viewport */
+    display: flex; /* Enable flexbox for this container */
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    padding: 0; /* Remove default padding */
+}
+
+#contact .container {
+    max-width: 100%; /* Optional: Adjust this value to control the form width */
+}
+
+#contact form {
+    width: 100%; /* Ensure form takes the full width of its container */
+    max-width: 500px; /* Set a max-width for the form if desired */
+    margin: auto; /* Center the form horizontally */
+}
 </style>
 </head>
 <body>
@@ -248,29 +280,29 @@
     </section>
 
 <!-- About Section -->
-<section id="about" class="p-5">
+<section id="about" class="pt-custom p-5">
     <div class="container-fluid">
         <h2 class="text-center mb-4">About Us</h2>
-        <p class="lead text-center">Enviro Building Company is dedicated to creating sustainable and eco-friendly building solutions. Learn more about our mission and values.</p>
+
         <div class="d-flex justify-content-center">
-            <hr class="col-3 col-md-2 mb-5">
+            <!-- <hr class="col-3 col-md-2 mb-5"> -->
         </div>
         <div class="row g-5">
             <div class="col-md-6">
-                <h2>Our Founder</h2>
+                <!-- <h3>Our Founder</h3> -->
                 <!-- Image with .float-start class -->
                 <img src="https://media.licdn.com/dms/image/C5603AQEiuZmZUU30Qw/profile-displayphoto-shrink_400_400/0/1606470394282?e=1714608000&v=beta&t=HARogat8paZPgHdum0Ac_oueFXmDhXyR6A9OcS25yE4" alt="Marlena Skibicka" class="img-fluid mt-3 founder-img float-start me-3">
-                <p>
+                <p><h3>Our Founder</h3>
                     With over 10 years of experience in the construction industry, Marlena Skibicka stands as a leader in sustainable and cost-effective construction solutions. Serving as the Managing Director at Construction, Marlena steers the strategic direction, financial performance, and operational excellence of the company. She has successfully overseen multiple residential projects, ranging from small renovations to new builds, consistently delivering high-quality results within budget and time constraints. Marlena boasts a strong background in spatial planning, environment and sustainability, and pre-contract cost management, complemented by certifications in SMSTS and RICS. She is passionate about creating innovative and environmentally friendly designs that meet the needs and expectations of clients and stakeholders. Additionally, Marlena is committed to fostering a collaborative and inclusive culture within the team, ensuring that everyone can contribute their skills and ideas to achieve their shared vision.
                 </p>
             </div>
 
             <div class="col-md-6">
-                <h2>Our Vision</h2>
-                <p>
+                <!-- <h3>Our Vision</h3> -->
+                <p><h3>Our Vision</h3>
 Enviro Building Company envisions a transformative future where the realms of construction and environmental stewardship merge seamlessly, leading the forefront of sustainable building practices. Grounded in a robust foundation of innovation, quality, and unwavering commitment to sustainability, the company's overarching mission encompasses delivering cost-effective construction solutions that markedly reduce environmental impact.</p>
-                <h2>Our Services</h2>
-                <p>
+                <!-- <h3>Our Services</h3> -->
+                <p><h3>Our Services</h3>
 <li>Extensions</li>
 <li>Loft conversions</li>
 <li>Refurbishments</li>
@@ -286,8 +318,8 @@ Enviro Building Company envisions a transformative future where the realms of co
 
 
 <!-- Sustainability Section -->
-<section id="sustainability" class="pt-custom p-5" style="background-image: url('assets/sustainability.jpg'); background-size: cover; background-position: center;">
-    <div class="container text-white" style="padding-top: 100px; padding-bottom: 100px;"> <!-- Adjust padding as needed -->
+<section id="sustainability" class="sustainability-section">
+    <div class="container text-white">
         <h2 class="text-center mb-4">SUSTAINABILITY</h2>
         <p class="text-center">
             Here is some text about the sustainability efforts of Enviro Building Company. This text can elaborate on the company's commitment to sustainable practices and eco-friendly construction methods.
@@ -296,7 +328,7 @@ Enviro Building Company envisions a transformative future where the realms of co
 </section>
 
 <!-- Press Section -->
-<section id="press" class="py-5">
+<section id="press" class="pt-custom py-5">
     <div class="container">
         <h2 class="text-center mb-4">Press</h2>
         <p class="text-center mb-5">
@@ -356,7 +388,7 @@ Enviro Building Company envisions a transformative future where the realms of co
 </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="p-5">
+    <section id="contact" class="pt-custom p-5">
         <div class="container">
             <h2 class="text-center mb-4">Contact Us</h2>
             <div class="row">
