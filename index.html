@@ -66,6 +66,9 @@
         display: block; /* Ensures the image is block-level for centering */
         margin: 0 auto; /* Centers the image horizontally */
     }
+        .navbar-brand {
+        margin-left: 20px; /* Adjust this value as needed */
+    }
 </style>
 </head>
 <body>
@@ -73,7 +76,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <img src="assets/logo.svg" alt="Enviro Building Company Logo">
+            <img src="assets/testlogo.png" alt="Enviro Building Company Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -103,6 +106,9 @@
     <!-- Projects Section -->
     <section id="projects" class="pt-custom p-5">
         <div class="container-fluid">
+        <div class="mb-4"> <!-- Adds some space below the image -->
+            <img src="assets/logonew.png" class="img-fluid" alt="Centered Image" style="max-width: 20%; height: auto; display: block; margin: 0 auto;"> <!-- img-fluid for responsiveness and custom styling for centering -->
+        </div>
             <h2 class="text-center mb-4 pb-custom">PROJECTS</h2>
             <div class="row g-4">
                 <!-- Placeholder for project items, replicate this div for each project -->
@@ -202,7 +208,14 @@
             <div class="col-md-6">
                 <h2>Our Vision</h2>
                 <p>
-Enviro Building Company envisions a transformative future where the realms of construction and environmental stewardship merge seamlessly, leading the forefront of sustainable building practices. Grounded in a robust foundation of innovation, quality, and unwavering commitment to sustainability, the company's overarching mission encompasses delivering cost-effective construction solutions that markedly reduce environmental impact. With a steadfast dedication to incorporating advanced green technologies and sustainable materials in each of its projects, Enviro Building Company ambitiously aims to redefine industry standards in energy efficiency and eco-friendly architectural design. By unequivocally prioritizing the health and well-being of our planet and its diverse inhabitants, the company ardently hopes to catalyze a significant paradigm shift towards more conscientious and responsible building practices throughout the construction industry. Emboldened by a deep-seated commitment to excellence and a fervent passion for sustainability, Enviro Building Company is unwavering in its pursuit to not only meet but exceed the evolving needs and expectations of its esteemed clients. In doing so, it endeavors to forge a lasting, positive impact on the global environment, heralding a new era of eco-conscious development.</p>
+Enviro Building Company envisions a transformative future where the realms of construction and environmental stewardship merge seamlessly, leading the forefront of sustainable building practices. Grounded in a robust foundation of innovation, quality, and unwavering commitment to sustainability, the company's overarching mission encompasses delivering cost-effective construction solutions that markedly reduce environmental impact.</p>
+                <h2>Our Services</h2>
+                <p>
+<li>Extensions</li>
+<li>Loft conversions</li>
+<li>Refurbishments</li>
+<li>New builds</li> 
+<li>Basements</li></p>
             </div>
         </div>
     </div>
@@ -313,7 +326,7 @@ Enviro Building Company envisions a transformative future where the realms of co
     <div class="container d-flex flex-column justify-content-around" style="height: 300px;"> <!-- Adjust the height as necessary -->
         <!-- Centered logo -->
         <div>
-            <img src="assets/logo2.svg" alt="Enviro Building Company Logo" style="height: 50px;"> <!-- Adjust height as needed -->
+            <img src="assets/logonew.png" alt="Enviro Building Company Logo" style="height: 150px;"> <!-- Adjust height as needed -->
         </div>
         
         <!-- Navigation Links -->
