@@ -69,6 +69,33 @@
         .navbar-brand {
         margin-left: 20px; /* Adjust this value as needed */
     }
+        .centered-logo {
+        max-width: 100%; /* Default max width */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        .centered-logo {
+            max-width: 20%; /* Slightly larger on tablets */
+        }
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .centered-logo {
+            max-width: 30%; /* Larger on desktops */
+        }
+    }
+
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .centered-logo {
+            max-width: 30%; /* Even larger on large desktops */
+        }
+    }
 </style>
 </head>
 <body>
@@ -107,7 +134,7 @@
     <section id="projects" class="pt-custom p-5">
         <div class="container-fluid">
         <div class="mb-4"> <!-- Adds some space below the image -->
-            <img src="assets/logonew.png" class="img-fluid" alt="Centered Image" style="max-width: 20%; height: auto; display: block; margin: 0 auto;"> <!-- img-fluid for responsiveness and custom styling for centering -->
+            <img src="assets/logonew.png" class="img-fluid centered-logo" alt="Centered Image"><!-- img-fluid for responsiveness and custom styling for centering -->
         </div>
             <h2 class="text-center mb-4 pb-custom">PROJECTS</h2>
             <div class="row g-4">
